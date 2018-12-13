@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+	
+</head>
+
+<body>
+	<section id="sec-form">
+		<div class="container">
+			<h2 class="titulo">Formularios</h2>
+		
+			<form name="form-registro" method="post" action="form.html">
+				<div class="row">
+					<div class="form-group col-md-6">
+
+						<label>Nombre</label>
+						<input type="text" name="nombre" id="nombre" class="form-control" required maxlength="60">
+						</div>
+					<div class="form-group col-md-6">
+						<label>Apellido</label>
+						<input type="text" name="apellido" id="apellido" class="form-control" maxlength="60">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label>Edad</label>
+					<input type="text" name="edad" id="edad" class="form-control" required maxlength="60">
+				</div>
+				<div class="form-group">
+					<label>Direccion</label>
+					<textarea  name="text" id="direccion" rows="6" class="form-control" maxlength="60"></textarea>
+				</div>
+				
+				<div class="row">
+					<div class="form-group col-md-6 col-sm-6 col-sm-12">
+						<label>Pais</label>
+						<select name="pais" id="pais" class="form-control">
+							<option value="HND">Honduras</option>
+							<option value="GTM">Guatemala</option>
+							<option value="SLV">El Salvador</option>
+							<option value="MEX">Mexico</option>
+							<option value="USA">Estados Unidos</option>
+						</select>
+					</div>
+					
+					<div class="form-group col-md-6 col-sm-6 col-xs-12">
+						<label>Genero</label>
+						<div class="radio">
+							<label>
+								Masculino
+								<input type="radio" name="genero" id="masculino" value="Masculino" checked>
+							</label>
+							
+							<label>
+								Femenino
+								<input type="radio" name="genero" id="femenino" value="Femenino">
+							</label>
+							
+						</div>
+					
+					</div>
+					
+					><div class="form-group">
+						<button type="submit" class="btn btn-primary">Enviar Datos
+						</button
+						<button type="reset" class="btn btn-light">Cancelar
+						</button>
+					
+					</div>
+				
+				</div>
+			</form>
+			
+		</div>
+	</section>
+	
+	
+</body>
+</html>

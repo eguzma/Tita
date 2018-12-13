@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Condensed:400,700|Volkhov:400,400i,700i');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+
+header{
+	background-color: transparent;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+}
+header h1{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+#sec-hero{
+	background-image: url(../img/finance_header_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 130px 0;
+	color: #fff;
+}
+#sec-hero h4,
+#sec-hero h1{
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+#sec-hero h4{
+	font-size: 16px;
+}
+#sec-hero h1{
+	font-size: 50px;
+	margin-top: 40px;
+	letter-spacing: 15px;	
+}
+
+.btn-transparente{
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 7px 40px;
+	letter-spacing: 2px;
+}
+.btn-transparente:hover{
+	}
+	
+
+#sec-quote{
+	background-color: #000;
+	padding: 20px 0;
+}
+
+#sec-quote h3{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+#sec-quote h5{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	font-size: 11px;
+	color: #fff;
+	text-align: center; 
+}
+
+#sec-quote .btn-light{
+	background-color: #aaa;
+	color:#111;
+	font-size: 12px;
+	padding: 8px 30px;
+}
+.btn-transparente{
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 7px 40px;
+	letter-spacing: 2px;
+}
+.btn-transparente:hover{
+	}
+
+.sec-espacio{
+	padding: 100px 0;
+}
+#sec-title h3{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 10px;
+	text-align: center;
+	color: #111;
+	font-weight: 600;
+}
+
+#sec-title p{
+	font-size: 12px;
+	text-align: center;	
+}
+
+#sec-newone{
+text-align: center;
+background-image: url(../img/finance_funfact_bg.jpg);
+background-size: cover;
+background-position: center;
+padding: 130px 0;
+color: #FFFFFF;
+background-attachment: fixed;
+}
+
+#sec-newone h3{
+text-transform: uppercase;
+letter-spacing: 4px;
+font-weight: 600;
+font-size: 22px;
+}
+
+#sec-newone h5{
+font-size: 15px;
+font-style: italic;
+margin-top: 10px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.border{
+border-radius: 15px;
+width: 30px;
+height: 30px;
+}
+
+
+#sec-practice .bg-image{
+	background-image: url(../img/section-practice-areas.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;			
+}
+
+
+.titulo{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #111;
+	margin-bottom: 40px;
+}
+.subtitulo{
+	font-family: 'Volkhov', serif;
+	font-size: 26px;
+	font-style: italic;
+}
+
+#sec-practice h3{
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	color: #111;
+	font-weight: 600;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+#sec-practice .sec-espacio{
+	padding: 80px 30px;
+}
+
+#sec-practice .icon{
+	border: 1px solid #111;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+#sec-practice p{
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-align: justify;	
+}
+
+#sec-cases {
+	margin-top: 100px;
+}
+
+.padre {
+	position: relative;
+}
+
+.hijo {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	bottom: 100%;
+}
+
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+
+.hijo h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.hijo h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;	
+}
+
+.case2{
+	position: relative;
+}
+
+.case2 .bg-overlay{
+	opacity: 1;
+}
+
+.case2 .case-info{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #000;
+	text-align: center;
+	padding: 10px 0;
+	padding-bottom: 50px
+}
+
+.case2:hover .hijo{
+	bottom: 0;
+	transform: none;
+}
+
+.case-info h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.case-info h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+#sec-request{
+	background-image: url(file:///C:/Diseno%20web%201/titan/img/rqst_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 130px 0;
+	color: #fff;
+	position: relative;
+}
+
+#sec-request .bg-overlay{
+	opacity: 1;
+}
+
+#sec-request .titulo{
+	color: #fff;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+#sec-request .btn{
+	background-color: transparent;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: uppercase
+}
+
+.icon-counter{
+	font-size: 40px;
+	
+}
+
+#sec-blog .titulo,
+#sec-blog .subtitulo{
+	text-align: center
+}
+
+#sec-blog .subtitulo{
+	font-size: 16px;
+	color: #000;
+	width: 60%;
+	margin: 20px auto 45px;
+}
+
+.blog-info{
+	margin-top: 20px;
+}
+
+.blog-info .title{
+	border-bottom: 1px dotted #c2c2c2;
+	margin-bottom: 5px;
+}
+
+.blog-info .title h4{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px
+}
+
+.blog-info .title p{
+	color: #aaa;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.blog-info .title a,
+.blog-info .content a{
+	color: #000;
+}
+.blog-info .title a:hover,
+.blog-info .content a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+
+#footer-menu{
+	background-color: #111;
+	color: #fff;
+	padding: 20px 0;	
+}
+
+#footer-menu h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-bottom: 1px dotted #666;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+}
+
+#footer-menu ul{
+	list-style: none;
+}
+
+#footer-menu ul a{
+	color: #aaa;
+}
+
+#footer-menu ul a:hover{
+	color: #fff;
+}
+
+#footer-copy{
+	background-color: #222;
+	color: #fff;
+	padding: 10px 0;
+	border-top: 1px solid #333;
+}
+
+#footer-copy a{
+	color: #aaa;
+}
+
+#footer-copy a:hover{
+	color: #fff;
+}
